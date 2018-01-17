@@ -1,11 +1,12 @@
 # Cash Register Workshop Start
 
 ### What You Will Need (important!)
-1.	Netbeans IDE
+#### 1.	Netbeans IDE
   -	Go to http://bits.netbeans.org/download/trunk/nightly/latest/
   -	Click on the download button under “all”
+  ##
   
-2.	Scene Builder
+#### 2.	Scene Builder
   -	Go to http://gluonhq.com/products/scene-builder/#download
   -	Click on the download link that corresponds to your computer’s operating system
 
