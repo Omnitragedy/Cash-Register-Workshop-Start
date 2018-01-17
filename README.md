@@ -12,4 +12,5 @@
  #
  #
 
+### "Finished" Version
 Go here for the "finished" copy of the Cash Register. It will include all the concepts we reviewed over the course of the workshop: https://github.com/Omnitragedy/Cash-Register-Workshop-Completed
