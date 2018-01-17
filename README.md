@@ -9,7 +9,7 @@
   -	Go to http://gluonhq.com/products/scene-builder/#download
   -	Click on the download link that corresponds to your computer’s operating system
 
-
-
+ 
+ 
 
 Go here for the "finished" copy of the Cash Register. It will include all the concepts we reviewed over the course of the workshop: https://github.com/Omnitragedy/Cash-Register-Workshop-Completed
