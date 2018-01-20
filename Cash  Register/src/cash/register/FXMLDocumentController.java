@@ -147,24 +147,28 @@ public class FXMLDocumentController implements Initializable {
         
         lblSubtotal.setText("$" + roundToNearestHundredth(subtotal));
     }
+    /*
+    Convert a string into a double
+    */
+    public double getDouble(String num) {
+        return Double.parseDouble(num);
+    }
     
-	public void checkValidInput(){
-        double noodleIn = getDouble(inputNoodle.getText());
-        double pizzaIn = getDouble(inputPizza.getText());
-        double wingIn = getDouble(inputWing.getText());
-        double pieIn = getDouble(inputPie.getText());
-        double iceIn = getDouble(inputIce.getText());
-        
-        if (noodleIn < 0 || inputNoodle == null)
-            inputNoodle.setText("0");
-        if (pizzaIn < 0 || inputPizza == null)
-            inputPizza.setText("0");
-        if (wingIn < 0 || inputWing == null)
-            inputWing.setText("0");
-        if (pieIn < 0 || inputPie == null)
-            inputPie.setText("0");
-        if (iceIn < 0 || inputIce == null)
-            inputIce.setText("0");
+    public void checkValidInput(){
+        try {
+            double noodleIn = getDouble(inputNoodleNum.getText());
+            double pizzaIn = getDouble(inputPizzaNum.getText());
+            double iceIn = getDouble(inputIceNum.getText());
+
+            if (noodleIn < 0 || inputNoodleNum == null)
+                inputNoodleNum.setText("0");
+            if (pizzaIn < 0 || inputPizzaNum == null)
+                inputPizzaNum.setText("0");
+            if (iceIn < 0 || inputIceNum == null)
+                inputIceNum.setText("0");
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, "Fix you inputs!");
+        }
     }
 	
     /*
