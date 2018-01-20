@@ -11,11 +11,10 @@
   -	Click on the download link that corresponds to your computer’s operating system
 
  #
- #
- 
- #### 3. Download this Repo
+  #### 3. Download this Repo
   - Press the "Clone or Download" button in the right corner
   - Download and extract the zipped file
+ #
 
 ### "Finished" Version
 Go here for the "finished" copy of the Cash Register. It will include all the concepts we reviewed over the course of the workshop: https://github.com/Omnitragedy/Cash-Register-Workshop-Completed
