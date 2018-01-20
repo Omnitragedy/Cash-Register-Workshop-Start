@@ -195,29 +195,21 @@ public class FXMLDocumentController implements Initializable {
     */
     public String getChange(double payment) {
         double moneyLeftToGive = payment;
-        int hundred = Math.round(getBalance(moneyLeftToGive, 100));//100 dollar bills
-        moneyLeftToGive = roundToNearestHundredth(moneyLeftToGive % (100));
-        int twenty = Math.round(getBalance(moneyLeftToGive, 20));//20 dollar bills
-        moneyLeftToGive = roundToNearestHundredth(moneyLeftToGive % (20));
-        int ten = Math.round(getBalance(moneyLeftToGive, 10));//10 dollar bills
-        moneyLeftToGive = roundToNearestHundredth(moneyLeftToGive % (10));
-        int five = Math.round(getBalance(moneyLeftToGive, 5));//5 dollar bills
-        moneyLeftToGive = roundToNearestHundredth(moneyLeftToGive % (5));
-        int one = Math.round(getBalance(moneyLeftToGive, 1));//1 dollar bills
-        moneyLeftToGive = roundToNearestHundredth(moneyLeftToGive % (1));
-        int quarter = Math.round(getBalance(moneyLeftToGive, .25));//quarters
-        moneyLeftToGive = roundToNearestHundredth(moneyLeftToGive % (.25));
-        int dime = Math.round(getBalance(moneyLeftToGive, .1));//dimes
-        moneyLeftToGive = roundToNearestHundredth(moneyLeftToGive % (.1));
-        int nickel = Math.round(getBalance(moneyLeftToGive, .05));//nickels
-        moneyLeftToGive = roundToNearestHundredth(moneyLeftToGive % .05);
-        int penny = Math.round(getBalance(moneyLeftToGive, .01));          //the rest as pennies
+		int hundred, twenty, ten, five, one, quarter, dime, nickel, penny;
         
-        String denomination = hundred + " hundreds, " + twenty + " twenties,\n"
-                + ten + " tens, " + five + " fives,\n"
-                + one + " ones, " + quarter + " quarters,\n"
-                + dime + " dimes, " + nickel + " nickels, and\n"
-                + penny + " pennies.";
+                //insert code below to take the change that needs to be given and
+                //split it into separate bills and coins
+                
+                
+                
+                
+        String denomination = "$" + payment;
+//                
+//            denomination = hundred + " hundreds, " + twenty + " twenties,\n"
+//                + ten + " tens, " + five + " fives,\n"
+//                + one + " ones, " + quarter + " quarters,\n"
+//                + dime + " dimes, " + nickel + " nickels, and\n"
+//                + penny + " pennies.";
         return denomination;
     }
     
